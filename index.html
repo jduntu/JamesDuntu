@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Main Css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Title -->
+    <title>Responsive Personal Portfolio Website</title>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/623113d0fe.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <a href="#" class="logo"><span>James</span>.io</a>
+        <i class="fa-solid fa-bars" id="menu-icons"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#Projects">Projects</a>
+            <a href="#Contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-contents">
+            <h3 class="wave">Hello there <span>👋</span></h3>  
+            <h3>I am James Duntu, a smart and passionate <span>Frontend Developer</span></h3> 
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/james-duntu-b41a38268/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/jduntu"><i class="fa-brands fa-github"></i></a>
+                <a href="https://dev.to/jduntu"><i class="fa-brands fa-dev"></i></a>
+            </div>
+            <!-- <a href="#" class="Button">Download CV</a>  -->
+        </div>
+        <div class="home-img">
+            <img src="Images/picture.png" alt="Profile Picture">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <!-- <h3>Frontend Developer</h3> -->
+            <p>An accomplished Frontend Developer with a passion for creating seamless user experiences with solid  foundation
+                in HTML CSS and Javascript, I specialize in crafting visually Captivating and intuitively navigable websites. 
+                Leveraging my expertise in responsive design. I bring concepts to life ensuring each project is a masterpiece of precision and functionality.</p>
+            <a href="https://www.linkedin.com/in/james-duntu-b41a38268/" class="bttn">Read more</a>
+        </div>
+    </section>
+
+    <!-- Project Section -->
+    <section class="wrapper-main" id="Projects">
+        <table>
+            <caption>My Projects</caption>
+            <tr>
+                <th>Project Name</th>
+                <th>Description</th>
+                <th>Date</th>
+            </tr>
+            <tr>
+                <td>Calculator App</td>
+                <td>Performs basic calculations</td>
+                <td>24-03-2019</td>
+            </tr>
+            <tr>
+                <td>Hotel Management System</td>
+                <td>Manages hotel room booking</td>
+                <td>08-09-2024</td>
+            </tr>
+            <tr>
+                <td>Bank Management System</td>
+                <td>Manages bank transactions</td>
+                <td>08-05-2022</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="Contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+   
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>&copy; 2024 | JD Concepts | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
